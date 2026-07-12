@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#155eef" />
+    <meta name="description" content="Custom NFC and QR review cards, stands, stickers and bundles for local businesses." />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ReviewTap — Get more Google reviews with one simple tap" />
+    <meta property="og:description" content="Custom NFC and QR review products for local businesses." />
+    <meta property="og:image" content="assets/images/hero-reviewtap.webp" />
+    <title>ReviewTap — NFC review cards for local businesses</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ReviewTap",
+        "description": "Custom NFC and QR review products for local businesses",
+        "url": "https://www.reviewtap.se",
+        "logo": "https://www.reviewtap.se/assets/favicon.svg"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="announcement" role="status">
+      <div class="container announcement-inner">
+        <span><span class="pulse-dot" aria-hidden="true"></span> Free design preview before production</span>
+        <span class="announcement-extra">No subscription · NFC + QR backup</span>
+      </div>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#/" aria-label="ReviewTap home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img">
+              <rect x="2" y="2" width="36" height="36" rx="11" fill="currentColor" />
+              <path d="M12.5 20a7.5 7.5 0 0 1 7.5-7.5" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" />
+              <path d="M12.5 25a12.5 12.5 0 0 1 12.5-12.5" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" />
+              <circle cx="15" cy="20" r="2.3" fill="white" />
+              <path d="m21.5 25.5 3.1 3 6.3-7.2" fill="none" stroke="#82e6a5" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <span>Review<span>Tap</span></span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#/" data-nav="home">Home</a>
+          <a href="#/how-it-works" data-nav="how-it-works">How It Works</a>
+          <a href="#/products" data-nav="products">Products</a>
+          <a href="#/pricing" data-nav="pricing">Pricing</a>
+          <a href="#/reviews" data-nav="reviews">Reviews</a>
+          <a href="#/faq" data-nav="faq">FAQ</a>
+          <a href="#/contact" data-nav="contact">Contact</a>
+          <a href="#/track" data-nav="track">Track Order</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="icon-button cart-button" href="#/cart" aria-label="Open shopping cart">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20.4 8H6.1M9.5 20a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0Zm8 0a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+          </a>
+          <a class="button button-primary nav-order" href="#/customize/card">Order Now</a>
+          <button class="icon-button menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+            <svg class="menu-open-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+            <svg class="menu-close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+        <a href="#/">Home</a>
+        <a href="#/how-it-works">How It Works</a>
+        <a href="#/products">Products</a>
+        <a href="#/pricing">Pricing</a>
+        <a href="#/reviews">Reviews</a>
+        <a href="#/faq">FAQ</a>
+        <a href="#/contact">Contact</a>
+        <a href="#/track">Track Order</a>
+        <a href="#/cart">Cart <span id="mobile-cart-label">(0)</span></a>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <div id="app" aria-live="polite">
+        <div class="page-loading container" role="status">
+          <span class="spinner" aria-hidden="true"></span>
+          <span>Preparing ReviewTap…</span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer" id="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand-light" href="#/" aria-label="ReviewTap home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="11" fill="currentColor" /><path d="M12.5 20a7.5 7.5 0 0 1 7.5-7.5M12.5 25A12.5 12.5 0 0 1 25 12.5" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" /><circle cx="15" cy="20" r="2.3" fill="white" /><path d="m21.5 25.5 3.1 3 6.3-7.2" fill="none" stroke="#82e6a5" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </span>
+            <span>Review<span>Tap</span></span>
+          </a>
+          <p>Custom NFC and QR products that make it simple for local customers to share honest feedback.</p>
+          <div class="social-row" aria-label="Social media">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">ig</a>
+            <a href="https://tiktok.com" target="_blank" rel="noreferrer" aria-label="TikTok">tt</a>
+          </div>
+        </div>
+        <div>
+          <h2>Products</h2>
+          <a href="#/customize/card">NFC Card</a>
+          <a href="#/customize/stand">Counter Stand</a>
+          <a href="#/customize/sticker">NFC Sticker</a>
+          <a href="#/customize/keychain">Keychain</a>
+          <a href="#/customize/bundle">Business Bundle</a>
+        </div>
+        <div>
+          <h2>Customer support</h2>
+          <a href="#/how-it-works">How It Works</a>
+          <a href="#/faq">FAQ</a>
+          <a href="#/track">Track Order</a>
+          <a href="#/approval">Design Approval</a>
+          <a href="#/contact">Contact</a>
+        </div>
+        <div>
+          <h2>Policies</h2>
+          <a href="#/policy/shipping">Shipping Policy</a>
+          <a href="#/policy/returns">Returns Policy</a>
+          <a href="#/policy/privacy">Privacy Policy</a>
+          <button class="link-button" data-action="cookie-settings">Cookie Settings</button>
+          <a href="#/policy/terms">Terms &amp; Conditions</a>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <a id="footer-email" href="mailto:hello@reviewtap.se">hello@reviewtap.se</a>
+          <a id="footer-phone" href="tel:+46101234567">+46 10 123 45 67</a>
+          <p id="footer-hours">Mon–Fri, 09:00–17:00 CET</p>
+          <a class="admin-link" href="#/admin">Store admin</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="copyright-year"></span> ReviewTap. All rights reserved.</p>
+        <p>Designed for honest customer feedback.</p>
+      </div>
+    </footer>
+
+    <a class="mobile-order-button" href="#/customize/card">
+      <span>Order Your ReviewTap</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </a>
+
+    <section class="cookie-banner" id="cookie-banner" aria-labelledby="cookie-title" hidden>
+      <div>
+        <span class="eyebrow">Your privacy</span>
+        <h2 id="cookie-title">Cookies, kept simple.</h2>
+        <p>We use essential storage for your cart and preferences. Privacy-friendly analytics stay off unless you allow them.</p>
+      </div>
+      <div class="cookie-actions">
+        <button class="button button-secondary" data-action="cookie-essential">Essential only</button>
+        <button class="button button-ghost" data-action="cookie-settings">Customize</button>
+        <button class="button button-primary" data-action="cookie-accept">Accept all</button>
+      </div>
+    </section>
+
+    <dialog class="cookie-dialog" id="cookie-dialog" aria-labelledby="cookie-dialog-title">
+      <form method="dialog">
+        <div class="dialog-head">
+          <div><span class="eyebrow">Privacy choices</span><h2 id="cookie-dialog-title">Cookie settings</h2></div>
+          <button class="icon-button" value="cancel" aria-label="Close cookie settings">×</button>
+        </div>
+        <label class="toggle-row"><span><strong>Essential storage</strong><small>Needed for your cart, checkout and preferences.</small></span><input type="checkbox" checked disabled /></label>
+        <label class="toggle-row"><span><strong>Privacy-friendly analytics</strong><small>Placeholder only. No analytics script is connected.</small></span><input id="analytics-consent" type="checkbox" /></label>
+        <div class="dialog-actions"><button class="button button-primary" value="save" data-action="cookie-save">Save choices</button></div>
+      </form>
+    </dialog>
+
+    <div class="toast-region" id="toast-region" aria-live="assertive" aria-atomic="true"></div>
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>
