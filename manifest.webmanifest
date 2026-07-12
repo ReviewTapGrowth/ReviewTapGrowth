@@ -1,0 +1,10 @@
+{
+  "name": "ReviewTap",
+  "short_name": "ReviewTap",
+  "description": "Custom NFC and QR review products for local businesses.",
+  "start_url": "./#/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#155eef",
+  "icons": [{ "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
