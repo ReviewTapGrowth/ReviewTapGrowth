@@ -85,3 +85,26 @@ Lighting/mood: soft studio lighting, controlled premium shadows, trustworthy and
 Color palette: white, clear acrylic, navy, Google-inspired blue, tiny green accents
 Materials/textures: polished acrylic, matte PVC, vinyl stickers, durable polymer, silver metal ring
 Constraints: no hands, no phone, no watermark, no trademarks, no unrelated objects, no misspelled text
+
+# July 2026 reference-led Google review artwork
+
+All six website assets were edited with the built-in image-generation workflow. Each existing product photograph was the edit target. The user-supplied square review card was a style and layout reference only; its watermark, diagonal background lettering, exact acrylic frame and photographic artifacts were not reproduced.
+
+Approved design system:
+
+- Glossy cobalt-to-deep-blue upper panel with five evenly spaced gold stars.
+- Exact white uppercase headline `LEAVE US YOUR REVIEW ON GOOGLE` on the hero, card, stand and larger bundle products.
+- Compact exact headline `REVIEW US ON GOOGLE` on the sticker and keychain.
+- Full-colour Google G centred at the blue-and-white boundary.
+- White lower panel with a clean black NFC phone-tap illustration.
+- Exact instruction `TAP YOUR PHONE HERE` on larger products and `TAP HERE` on compact products.
+- No ReviewTap wording on the printed product face, no copied watermark and no extra text.
+
+Asset-specific invariants:
+
+- `hero-reviewtap.webp`: preserve the Scandinavian café scene, customer hand, phone, acrylic stand, negative space and phone confirmation screen.
+- `product-card.webp`: preserve the white PVC card, rounded corners, three-quarter angle and studio shadow.
+- `product-stand.webp`: preserve the clear acrylic A-frame, insert proportions, highlights and studio shadow.
+- `product-sticker.webp`: adapt the approved layout to the round vinyl shape while preserving the lifted adhesive edge.
+- `product-keychain.webp`: adapt the approved layout to the compact insert while preserving the navy surround and polished split ring.
+- `product-bundle.webp`: preserve the full assortment and arrangement; apply the full layout to the stand and cards and simplified matching artwork to the smaller round products.
